@@ -21,7 +21,7 @@ The current supported authentication methods are:
 - LDAP
 - Basic Auth
 
-The main implementation along with more documentation can be found in the [node] repository.
+The main implementation along with more documentation can be found in the [node](https://github.com/webmeshproj/node) repository.
 
 Extended documentation will be added as the project matures.
 
