@@ -2,7 +2,7 @@
 
 Webmesh is a project that aims to provide a zero-configuration, simple, secure, and scalable way to connect devices and services across the internet.
 It is inspired by several other projects that have emerged over the years such as TailScale, ZeroTier, and OpenZiti.
-Peers connect to eachother either via other peers, a central controller (or group of controllers), or direct links negotiated via WebRTC.
+Peers connect to eachother either via other peers, a central controller (or group of controllers), or direct links negotiated via ICE connections.
 
 Nodes connected to the network take on one of three roles. They can be a client, a server, or both.
 A client is a node that is connected to the network but does not provide any services, except to itself.
@@ -21,8 +21,8 @@ The current supported authentication methods are:
 - LDAP
 - Basic Auth
 
-The main implementation along with more documentation can be found in the [node](https://github.com/webmeshproj/node) repository.
+The main code can be found in the [webmesh](https://github.com/webmeshproj/webmesh) repository.
 
-Extended documentation will be added as the project matures.
+More information and documentation is available at the project website: https://webmeshproj.github.io.
 
 **This project is not yet ready for production use, but I hope to rapidly get there**
