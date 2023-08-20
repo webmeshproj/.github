@@ -15,11 +15,6 @@ This allows for the network to be highly available and fault tolerant.
 The network supports role-based access control and can be configured to allow or deny access to specific services and operations to specific nodes.
 The same goes for network access controls.
 This is the recommended way to run the network, but insecure options are provided for testing and development purposes.
-The current supported authentication methods are:
-
-- mTLS
-- LDAP
-- Basic Auth
 
 The main code can be found in the [webmesh](https://github.com/webmeshproj/webmesh) repository.
 
